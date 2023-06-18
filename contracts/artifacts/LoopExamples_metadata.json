@@ -1,0 +1,84 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumOfNumbersNotDivisibleBy3",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "n",
+						"type": "uint256"
+					}
+				],
+				"name": "sumOfNumbersUntilSumIs1000",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/9_Loops.sol": "LoopExamples"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/9_Loops.sol": {
+			"keccak256": "0x068e608d28ae12928c92b22ce831c9a9d4cc7db3917da3b8bfe0458e8d29b742",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://59838e98d3c948028ab804eaed6bfca97cc77b2b8bf607dfc76003251db447b5",
+				"dweb:/ipfs/QmXCqMhCQyRtAdK7rpP9Ca84gj2XgYPDQrtUmtVbmWrQbT"
+			]
+		}
+	},
+	"version": 1
+}

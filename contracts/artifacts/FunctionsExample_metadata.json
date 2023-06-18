@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getProduct",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getProductFromVariable",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/8_Functions.sol": "FunctionsExample"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/8_Functions.sol": {
+			"keccak256": "0x5c47e04decf21730e90fc4563170075cb70ecd98e29a3769e7724eef4e1e2488",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://843ec2bbdf48765a911eab9bef90cf1f2b3853e2cf5eefee0fc22b51945e1005",
+				"dweb:/ipfs/Qmf8FPBi68dML88N4TTRiLsK9W4fnXggLHWU9MJ9QirZtA"
+			]
+		}
+	},
+	"version": 1
+}
